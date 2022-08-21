@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="indent_margin">16dp</dimen>
+    <dimen name="indent_avatar">48dp</dimen>
+    <dimen name="indent_icon">24dp</dimen>
+</resources>
