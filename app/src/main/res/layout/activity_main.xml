@@ -14,7 +14,8 @@
         android:layout_margin="@dimen/indent_margin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@sample/post_avatar" />
+        tools:srcCompat="@sample/post_avatar"
+        android:contentDescription="@string/avatar_description_logo" />
 
     <TextView
         android:id="@+id/author"
@@ -50,7 +51,8 @@
         android:background="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_more_vert_24" />
+        app:srcCompat="@drawable/ic_baseline_more_vert_24"
+        android:contentDescription="@string/button_description_icon" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier_1"
@@ -76,6 +78,7 @@
         app:constraint_referenced_ids="content" />
 
     <ImageView
+        android:contentDescription="@string/like_description_icon"
         android:id="@+id/like_icon"
         android:layout_width="@dimen/indent_icon"
         android:layout_height="@dimen/indent_icon"
@@ -96,6 +99,7 @@
         tools:text="@sample/posts.json/data/like" />
 
     <ImageView
+        android:contentDescription="@string/repost_description_icon"
         android:id="@+id/repost_icon"
         android:layout_width="@dimen/indent_icon"
         android:layout_height="@dimen/indent_icon"
@@ -116,6 +120,7 @@
         tools:text="@sample/posts.json/data/repost" />
 
     <ImageView
+        android:contentDescription="@string/view_description_icon"
         android:id="@+id/view_icon"
         android:layout_width="@dimen/indent_icon"
         android:layout_height="@dimen/indent_icon"
