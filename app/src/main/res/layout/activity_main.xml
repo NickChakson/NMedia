@@ -14,7 +14,7 @@
         android:layout_margin="@dimen/indent_margin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@sample/post_avatar"
+        android:src="@drawable/ic_netology"
         android:contentDescription="@string/avatar_description_logo" />
 
     <TextView
